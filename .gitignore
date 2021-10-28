@@ -33,4 +33,4 @@ override.tf.json
 .DS_Store
 
 #Ignoring the input variables terraform files
-.tfvars
+terraform.tfvars
