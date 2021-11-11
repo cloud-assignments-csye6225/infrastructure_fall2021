@@ -155,3 +155,8 @@ variable "s3_bucket" {
   description = "S3 bucket name"
 }
 
+variable "code_deploy_bucket" {
+  type        = string
+  description = "code deploy bucket"
+}
+
