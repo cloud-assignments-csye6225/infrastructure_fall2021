@@ -155,8 +155,24 @@ variable "s3_bucket" {
   description = "S3 bucket name"
 }
 
+variable "key_name" {
+  type        = string
+  description = "key pair name"
+}
+
+variable "access_key" {
+  type = string
+}
+
+variable "secret_key" {
+  type = string
+}
+
+variable "region" {
+  type = string
+}
+
 variable "code_deploy_bucket" {
   type        = string
   description = "code deploy bucket"
 }
-
